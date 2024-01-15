@@ -1,0 +1,44 @@
+.footer__container {
+  padding-bottom: 2rem;
+}
+.footer__logo {
+  font-size: var(--size-base);
+  font-weight: var(--font-medium);
+  font-family: cursive;
+}
+.footer__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.rounded-boxes {
+  display: flex;
+  gap: 0.5rem;
+}
+.box-1,
+.box-2,
+.box-3 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.box-1 {
+  background: lightblue;
+  border-radius: 50%;
+}
+.box-2 {
+  background: lightgreen;
+  border-radius: 0.5rem;
+}
+.box-3 {
+  background: lightsalmon;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  transform: rotate(-90deg);
+}
+@media (min-width: 670px) {
+  .footer__logo {
+    font-size: var(--size-2xl);
+    font-weight: var(--font-medium);
+  }
+}
