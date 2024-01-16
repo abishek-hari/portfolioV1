@@ -27,26 +27,25 @@ const Hero = () => {
               target='_blank'
               className='icon-link'
             >
-              <AiFillGithub />
+              <AiFillGithub className='hero-icon-sm' />
             </a>
             <a
               href='https://www.linkedin.com/in/abishekhari09/'
               target='_blank'
               className='icon-link'
             >
-              <AiFillLinkedin />
+              <AiFillLinkedin className='hero-icon-sm' />
             </a>
             <a
-              href='mailto:abishekhari09@gmail.com'
+              href='https://mail.google.com/mail/?view=cm&fs=1&to=abishekhari09@gmail.com'
               target='_blank'
               className='icon-link'
             >
-              <BiLogoGmail />
+              <BiLogoGmail className='hero-icon-sm' />
             </a>
           </div>
         </div>
       </div>
-
       <div className='hero__img'>
         <img src={HeroImg} alt='HeroImg' className='hero__main-img' />
       </div>

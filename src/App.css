@@ -6,11 +6,24 @@
   --clr-primary: #fff;
   --clr-medium: #333333;
   --clr-base: #757575;
-  --clr-span-logo: #8a60f6;
+  --clr-span: #a987ff;
+  --clr-span-bg: #a987ff;
+
+  /* --clr-span-logo: #1b363f; */
+  /* --clr-span: #1b363f;
+  --clr-span-text: #1b363f;
+
+  --clr-purple: #1b363f;
+  --clr-span-logo: #1b363f;
+  --clr-span: #1b363f;
+  --clr-span-1: #1b363f;
+  --clr-span-2: #1b363f;
+  --clr-span-3: #1b363f;
+  --clr-light: #1b363f;
+  --clr-navy: #1b363f; */
+
+  /* --clr-span-logo: #8a60f6;
   --clr-span: #8a60f6;
-  /* --clr-span-bg: #98aaff; */
-  /* --clr-span-bg: #1b363f; */
-  /* --clr-span-bg: #8a60f6; */
   --clr-span-bg: #a987ff;
   --clr-span-text: #8a60f6;
 
@@ -21,7 +34,7 @@
   --clr-span-2: #8a60f6;
   --clr-span-3: #8a60f6;
   --clr-light: #8a60f6;
-  --clr-navy: #8a60f6;
+  --clr-navy: #8a60f6; */
   /* --clr-purple: #a0a5fe;
   --clr-span-logo: #617bff;
   --clr-span: #869aff;
@@ -29,7 +42,7 @@
   --clr-span-2: #0b208b;
   --clr-span-3: #889cff;
   --clr-light: rgb(218, 219, 255);
-  --clr-navy: rgb(0, 0, 128); */
+  --clr-navy: rgb(0, 0, 128);
 
   /* Sizes */
   --size-xxs: 0.5rem;

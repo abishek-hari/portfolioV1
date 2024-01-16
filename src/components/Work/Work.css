@@ -15,14 +15,18 @@
   gap: 2.5rem;
   padding-top: 1.5rem;
 }
+.work-img-container {
+  min-height: 10rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  display: grid;
+  place-items: center;
+}
 .work__img {
   width: 100%;
-  min-height: 10rem;
-  object-fit: contain;
-  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
-  border-radius: 1rem;
-  background-color: #d9d9fb;
-  padding: 0 1rem;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 0.5rem;
 }
 .work__info {
   margin: 1.5rem 0;
@@ -70,8 +74,8 @@
   .work__desc {
     font-size: var(--size-sm);
   }
-  .work__img {
-    height: 16rem;
+  .work-img-container {
+    min-height: 12rem;
   }
 }
 /* md */
@@ -86,7 +90,7 @@
     font-size: var(--size-sm);
     line-height: 1.7;
   }
-  .work__img {
-    height: 20rem;
+  .work-img-container {
+    min-height: 13.5rem;
   }
 }

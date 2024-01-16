@@ -38,7 +38,7 @@ const Collabration = () => {
           <div className='collab-link'>
             <BiLogoGmail />
             <a
-              href='mailto:abishekhari09@gmail.com'
+              href='https://mail.google.com/mail/?view=cm&fs=1&to=abishekhari09@gmail.com'
               target='_blank'
               className='link'
             >

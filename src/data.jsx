@@ -1,5 +1,8 @@
-import NexodusImg from "./assets/Nexodus.png";
-import NoteNestImg from "./assets/NoteNest.png";
+// import NexodusImg from "./assets/Nexodus.png";
+// import NoteNestImg from "./assets/NoteNest.png";
+
+import NexodusImg from "./assets/Nexodus-1.png";
+import NoteNestImg from "./assets/NoteNest-1.png";
 import FitzenImg from "./assets/Fitzen-main.png";
 
 import { FaReact, FaCss3 } from "react-icons/fa";

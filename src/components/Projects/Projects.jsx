@@ -99,10 +99,6 @@ const Projects = () => {
           <p className='project__webstack-desc'>{project__webstack__desc}</p>
         </div>
       </div>
-      {/* <div className='project__img-grid project-section'>
-        <img src={imgOne} alt='' className='grid__one' />
-        <img src={imgTwo} alt='' className='grid__one' />
-      </div> */}
       <div className='project__lessons-section project-section'>
         <h2 className='project__lesson-title'>{project__lesson_title}</h2>
         <p className='project__lesson-desc'>{project__lesson_desc}</p>
@@ -114,7 +110,9 @@ const Projects = () => {
             const { id, img, title, desc } = project;
             return (
               <div className='work__card' key={id}>
-                <img src={img} alt={title} className='work__img' />
+                <div className='work-img-container'>
+                  <img src={img} alt={title} className='work__img' />
+                </div>
                 <div className='work__info'>
                   <h2 className='work__info-title'>{title}</h2>
                   <p className='work__info-desc'>{desc}</p>
