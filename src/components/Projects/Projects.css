@@ -28,7 +28,6 @@
   gap: 0.5rem;
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
-  /* background-color: var(--clr-span); */
   background-color: #1b363f;
   color: var(--clr-primary);
 }

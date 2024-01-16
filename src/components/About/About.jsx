@@ -1,5 +1,6 @@
 import React from "react";
-import HeroImg from "../../assets/6.png";
+// import HeroImg from "../../assets/6.png";
+import HeroImg from "../../assets/8.png";
 import "./About.css";
 
 const About = () => {

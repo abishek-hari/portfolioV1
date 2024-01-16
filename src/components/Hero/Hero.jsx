@@ -1,8 +1,8 @@
 import React from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BiLogoGmail } from "react-icons/bi";
-import HeroImg from "../../assets/Abishek-profile-v1.png";
-
+// import HeroImg from "../../assets/Abishek-profile-v2.png";
+import HeroImg from "../../assets/Abishek-profile-v3.png";
 import "./Hero.css";
 
 const Hero = () => {

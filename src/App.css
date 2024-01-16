@@ -6,8 +6,9 @@
   --clr-primary: #fff;
   --clr-medium: #333333;
   --clr-base: #757575;
-  --clr-span: #a987ff;
-  --clr-span-bg: #a987ff;
+  --clr-span: lightsalmon;
+  /* --clr-span-bg: rgb(255, 169, 135); */
+  --clr-span-bg: rgb(255, 178, 147);
 
   /* --clr-span-logo: #1b363f; */
   /* --clr-span: #1b363f;

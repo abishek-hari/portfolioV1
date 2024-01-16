@@ -29,8 +29,14 @@
   cursor: pointer;
 }
 .hero-icon-sm {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
+/* .icon-link {
+  color: white;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  background-color: var(--clr-span);
+} */
 .icon-link:nth-child(1) {
   background-color: lightblue;
   color: white;
@@ -140,8 +146,8 @@
     font-size: var(--size-3xl);
   }
   .hero__main-img {
-    width: 20rem;
-    height: 23rem;
+    width: 21rem;
+    height: 24.5rem;
     border-radius: 1rem;
   }
 }
